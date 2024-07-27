@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff33;
+  border: #ffffff solid;
+  border-radius: 15px;
+  padding: 1vw;
+  margin: 0.5vw;
+  height: 15vh;
+  width: 40vw;
+}
+.card img {
+  height: 60px;
+  margin-right: 10px;
+}
+p {
+  color: #ffffff;
+}
+.links {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff33;
+    border: #ffffff solid;
+    border-radius: 15px;
+    padding: 0.5vw;
+    height: 15vh;
+    width: 48vw;
+  }
+  .card img {
+    height: 40px;
+    margin-right: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff33;
+    border: #ffffff solid;
+    border-radius: 15px;
+    padding: 1vw;
+    margin: 0.5vh;
+    height: 15vh;
+    width: 40vw;
+  }
+  .card img {
+    height: 60px;
+    margin-right: 10px;
+  }
+}

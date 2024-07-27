@@ -1,0 +1,63 @@
+.competingTeamImg {
+  max-width: 60px;
+  height: 40px;
+  align-self: center;
+} /* Write your CSS here */
+li {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  border-radius: 16px;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  margin-bottom: 24px;
+}
+.competing-team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  flex-grow: 1;
+}
+.result {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 10px;
+}
+.lost {
+  font-size: 14px;
+  color: #e31a1a;
+}
+.won {
+  font-size: 14px;
+  color: #18ed66;
+}
+@media screen and (min-width: 768px) {
+  li {
+    width: 30%;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  .competingTeamImg {
+    max-width: 150px;
+    height: 150px;
+    align-self: center;
+  }
+  .competing-team-name {
+    font-size: 24px;
+  }
+  .result {
+    font-size: 16px;
+  }
+  .lost {
+    font-size: 24px;
+  }
+  .won {
+    font-size: 24px;
+  }
+}

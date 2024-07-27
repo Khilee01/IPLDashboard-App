@@ -1,0 +1,63 @@
+.containerForTeamMactches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  color: #ffffff;
+  font-family: Bree Serif;
+  min-height: 100vh;
+  text-decoration: none;
+  padding: 1vh;
+}
+#MI {
+  background: linear-gradient(to bottom, #1341ab, #1e293b);
+}
+#RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+#KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+#KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+#CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+#SRH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+#DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.teamMatches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bannerImg {
+  border-radius: 20px;
+  width: 96%;
+  height: 28vh;
+}
+.hglatestMatch {
+  text-align: left;
+  width: 96%;
+  font-size: 16px;
+  display: block;
+}
+
+ul {
+  width: 90%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
